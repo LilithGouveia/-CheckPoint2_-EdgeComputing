@@ -6,7 +6,7 @@ O código também foi disponibilidado no [ThinkerCad](https://www.tinkercad.com/
 
 ## Do que se trata:
 
-O Grupo **SoftForge** está desenvolvendo um protótipo para auxiliar a Vinheria Agnello a manter seus vinhos corretamente climatizados, este projeto é constituído de um sensor de luminosidade que indica o nível da luminosidade do ambiente por um LED, com sua cor variando entre vermelho (Luz alta), amarelo (Luz moderada) e verde (Luz aceitável), e em caso de luz alta, dispara um alarme, A mesma lógica se aplica para controle e monitoramento da humidade e Temperatura.
+O Grupo **SoftForge** está desenvolvendo um protótipo para auxiliar a Vinheria Agnello a manter seus vinhos corretamente climatizados, este projeto é constituído de um sensor de luminosidade que indica o nível da luminosidade do ambiente por um LED, com sua cor variando entre vermelho (Luz alta), amarelo (Luz moderada) e verde (Luz aceitável), e em caso de luz alta, dispara um alarme, A mesma lógica se aplica para controle e monitoramento da Umidade e Temperatura.
 
 ---
 

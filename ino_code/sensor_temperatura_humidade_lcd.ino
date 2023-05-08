@@ -91,7 +91,7 @@ void loop() {
     delay(2000);
   }
 
-  //  Humidade 
+  //  Umidade 
 
   dht.humidity().getEvent(&event);
   if ((event.relative_humidity) < 50) {
@@ -100,9 +100,9 @@ void loop() {
     digitalWrite(GREEN, LOW);
     lcd.clear();
     lcd.setCursor(0, 0);
-    lcd.print("Humidade Baixa");
+    lcd.print("Umidade Baixa");
     lcd.setCursor(0, 1);
-    lcd.print("Humidade: ");
+    lcd.print("Umidade: ");
     lcd.print(event.relative_humidity);
     lcd.print("%");
     for (i; i < 1; i++) {
@@ -118,9 +118,9 @@ void loop() {
     digitalWrite(GREEN, LOW);
     lcd.clear();
     lcd.setCursor(0, 0);
-    lcd.print("Humidade Alta");
+    lcd.print("Umidade Alta");
     lcd.setCursor(0, 1);
-    lcd.print("Humidade: ");
+    lcd.print("Umidade: ");
     lcd.print(event.relative_humidity);
     lcd.print("%");
     for (i; i < 1; i++) {
@@ -135,9 +135,9 @@ void loop() {
     digitalWrite(GREEN, HIGH);
     lcd.clear();
     lcd.setCursor(0,0);
-    lcd.print("Humidade OK");
+    lcd.print("Umidade OK");
     lcd.setCursor(0,1);
-    lcd.print("Humidade: ");
+    lcd.print("Umidade: ");
     lcd.print(event.relative_humidity);
     lcd.print("%");
     delay(2000);
